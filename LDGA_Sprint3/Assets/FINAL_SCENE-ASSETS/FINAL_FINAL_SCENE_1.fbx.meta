@@ -1,0 +1,285 @@
+fileFormatVersion: 2
+guid: f461da4662cd41e45932ccbde4b96f29
+ModelImporter:
+  serializedVersion: 24200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Column_DefaultMaterial_BaseColor.1001
+    second: {fileID: 2800000, guid: 8f4e18abb4f22eb439a2577ba9af399c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Column_DefaultMaterial_Height.1001
+    second: {fileID: 2800000, guid: 8454c55bd2eb6bb448e1b66eee2c7d7a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Column_DefaultMaterial_Metalness.1001
+    second: {fileID: 2800000, guid: 45478232add9ebb4eb7b03d21fcb4b86, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Column_DefaultMaterial_Normal.1001
+    second: {fileID: 2800000, guid: 3c40e25b88ee45b45b18b228b0302db7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Column_DefaultMaterial_Roughness.1001
+    second: {fileID: 2800000, guid: 63531920d85ae184c84dc03eef35431f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Obelisk-Substance_openPBR_shader1_BaseColor.1001
+    second: {fileID: 2800000, guid: e99641d9c1e5d86468df5e88266472c8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Obelisk-Substance_openPBR_shader1_Height.1001
+    second: {fileID: 2800000, guid: 9ba3fa89447d70c4dbb6e61306123c32, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Obelisk-Substance_openPBR_shader1_Metalness.1001
+    second: {fileID: 2800000, guid: 9d86a678c2026f840b791659f038a7ef, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Obelisk-Substance_openPBR_shader1_Normal.1001
+    second: {fileID: 2800000, guid: 1090ecec6896b5d4cbd4e464ccf71677, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Obelisk-Substance_openPBR_shader1_Roughness.1001
+    second: {fileID: 2800000, guid: 8f981f8714da0d74cabfad99c82e2f5b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: REVISED_Overhang-Substance_Walls_Overhang_texture_BaseColor.1001
+    second: {fileID: 2800000, guid: d5fc1cfcd60c2f34cb47b9405e37e641, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: REVISED_Overhang-Substance_Walls_Overhang_texture_Height.1001
+    second: {fileID: 2800000, guid: 6ac0844eafd6963468b025e5761738f2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: REVISED_Overhang-Substance_Walls_Overhang_texture_Metalness.1001
+    second: {fileID: 2800000, guid: f5d5471bd5c36fc40b4830f4d8b0a506, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: REVISED_Overhang-Substance_Walls_Overhang_texture_Normal.1001
+    second: {fileID: 2800000, guid: b7337892c7f966749ab95f5c3f19fc4d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: REVISED_Overhang-Substance_Walls_Overhang_texture_Roughness.1001
+    second: {fileID: 2800000, guid: 142b3a6105dc99141b5e85382b4f188f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Rock1_DefaultMaterial_BaseColor
+    second: {fileID: 2800000, guid: 426f39a07670a4345bf814e0000b371c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Rock1_DefaultMaterial_Height
+    second: {fileID: 2800000, guid: 6c44122bf7b3d11409430a0b074f0ad5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Rock1_DefaultMaterial_Metalness
+    second: {fileID: 2800000, guid: fc2984eb227234149b933c92491bed19, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Rock1_DefaultMaterial_Normal
+    second: {fileID: 2800000, guid: 9229c61570ffaa94992187290e06cd33, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Rock1_DefaultMaterial_Roughness
+    second: {fileID: 2800000, guid: 482b7ed9f7226ae4ea1a42f4f1f2ca4a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Top_wall-Substance_Top_Wall_BaseColor.1001
+    second: {fileID: 2800000, guid: 113cee4236106374dafba0284e1a70b3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Top_wall-Substance_Top_Wall_Height.1001
+    second: {fileID: 2800000, guid: a43c1b79e8d133040a16477468a87c05, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Top_wall-Substance_Top_Wall_Metalness.1001
+    second: {fileID: 2800000, guid: 982f1ddc09396d34d9b43daa43786f34, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Top_wall-Substance_Top_Wall_Normal.1001
+    second: {fileID: 2800000, guid: b6ea99c371e121d428e6242e541778f9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Top_wall-Substance_Top_Wall_Roughness.1001
+    second: {fileID: 2800000, guid: 7900f2b1210260f42a5fa17cffbec203, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Walls_Doorway_substance_openPBR_shader1_BaseColor.1001
+    second: {fileID: 2800000, guid: 92aea3f8aea964147acaeef32f63aa36, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Walls_Doorway_substance_openPBR_shader1_Height.1001
+    second: {fileID: 2800000, guid: 2169aa18ba61b91449ea8438fed5265c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Walls_Doorway_substance_openPBR_shader1_Metalness.1001
+    second: {fileID: 2800000, guid: cfffc827e19d8054d8e8ae2d87fee38f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Walls_Doorway_substance_openPBR_shader1_Normal.1001
+    second: {fileID: 2800000, guid: 0505a2aa6e03fbb43ba990cac9e44312, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Walls_Doorway_substance_openPBR_shader1_Roughness.1001
+    second: {fileID: 2800000, guid: e284eb8c8fb121b4188a1de88fc5b46b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Walls_Statue_Substance_Walls_Statue_Substance_BaseColor.1001
+    second: {fileID: 2800000, guid: be8d36edaa8a6454eb0ab18d2879ddd6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Walls_Statue_Substance_Walls_Statue_Substance_Height.1001
+    second: {fileID: 2800000, guid: 178dc6c4f768c984fa2a2af32c364d11, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Walls_Statue_Substance_Walls_Statue_Substance_Metalness.1001
+    second: {fileID: 2800000, guid: eca869bc3477aa844bac3ad0b86ef766, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Walls_Statue_Substance_Walls_Statue_Substance_Normal.1001
+    second: {fileID: 2800000, guid: 3285929824af8aa4292b3f92c8025bb2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Walls_Statue_Substance_Walls_Statue_Substance_Roughness.1001
+    second: {fileID: 2800000, guid: 052d23a2bbfbea94ab5e79f56dc0b0e5, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    generateMeshLods: 0
+    meshLodGenerationFlags: 0
+    maximumMeshLod: -1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
