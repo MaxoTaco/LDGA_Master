@@ -9,6 +9,8 @@ public class Phase1: Phase
     public override void OnEnter()
     {
         Debug.Log("Enter Phase 1");
+
+        m_isFinished = true;
     }
     public override void Execute()
     {
@@ -17,7 +19,6 @@ public class Phase1: Phase
     public override void OnExit()
     {
         Debug.Log("Phase 1 End");
-        m_isFinished = true;
     }
     public override bool IsFinished()
     {

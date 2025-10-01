@@ -20,6 +20,7 @@ public class Phase2:Phase
         if (m_osirisToMove != null && m_transformForOsirisToMove != null)
         {
             startPos = m_osirisToMove.transform.position;
+            Debug.Log(startPos);
             elapsedTime = 0f;
             m_isFinished = false;
             Debug.Log("Phase 2 Start: Osiris moving");

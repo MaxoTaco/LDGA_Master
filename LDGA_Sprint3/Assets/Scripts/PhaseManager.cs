@@ -15,18 +15,15 @@ public class PhaseManager : MonoBehaviour
     //phase 3
 
     public GameObject phase3column;
-    public Transform phase3columnTarget;
     public Transform phase3BossTarget;
 
     //phase 4
     public GameObject phase4colummn;
-    public Vector3 phase4TargetRotation;
+    public Transform phase4Target;
 
     // Phase5
     public Transform phase5BossTarget;
     public GameObject phase5Object;
-    public Transform phase5ObjectTarget;
-
 
 
 
@@ -39,11 +36,11 @@ public class PhaseManager : MonoBehaviour
 
         phases.Add(new Phase2(osiris,targetForOsiris));
 
-        phases.Add(new Phase3(phase3column,phase3columnTarget,boss,phase3BossTarget));
+        phases.Add(new Phase3(phase3column,boss,phase3BossTarget));
 
-        phases.Add(new Phase4(phase4colummn,phase4TargetRotation));
+        phases.Add(new Phase4(phase4colummn,phase4Target));
 
-        phases.Add(new Phase5(boss, bossWeapon, phase5BossTarget,phase5Object,phase5ObjectTarget));
+        phases.Add(new Phase5(boss, bossWeapon, phase5BossTarget,phase5Object));
         if (phases.Count > 0)
         {
             phases[0].OnEnter();
@@ -61,7 +58,7 @@ public class PhaseManager : MonoBehaviour
             else
                 Debug.Log("You cannot change scene right now");
         }
-        if (currentIndex < phases.Count - 1)
+        if (currentIndex < phases.Count)
         {
             phases[currentIndex].Execute();
         }
@@ -72,7 +69,9 @@ public class PhaseManager : MonoBehaviour
 
          phases[currentIndex].OnExit();
          currentIndex++;
-         phases[currentIndex].Execute();
+        phases[currentIndex].OnEnter();
+
+        phases[currentIndex].Execute();
        
     }
 }
