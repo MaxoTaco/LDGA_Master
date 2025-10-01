@@ -9,25 +9,24 @@ public class Phase5: Phase
     public Vector3 bossTargetScale = new Vector3(3f, 3f, 3f);
 
     public GameObject m_ObjectToMove;
-    public Transform m_ObjectTarget;
-    private float objectMoveTime = 4f;
+    private float objectMoveTime = 4f; 
 
     private float elapsedTimeBoss;
     private float elapsedTimeObject;
 
     private Vector3 bossStartPos;
     private Vector3 bossStartScale;
-    private Vector3 objectStartPos;
+    private float objectStartY;
 
     public Phase5(GameObject boss, GameObject weapon, Transform bossTarget,
-                  GameObject obj, Transform objTarget) : base("Phase5")
+                  GameObject obj) : base("Phase5")
     {
         m_Boss = boss;
         m_BossWeapon = weapon;
         m_bossTarget = bossTarget;
         m_ObjectToMove = obj;
-        m_ObjectTarget = objTarget;
     }
+
     public override void OnEnter()
     {
         elapsedTimeBoss = 0f;
@@ -35,48 +34,57 @@ public class Phase5: Phase
         m_isFinished = false;
 
         if (m_BossWeapon != null)
-            m_BossWeapon.SetActive(false);
+            m_BossWeapon.SetActive(false); 
 
         if (m_Boss != null)
         {
             bossStartPos = m_Boss.transform.position;
             bossStartScale = m_Boss.transform.localScale;
         }
-        if (m_ObjectToMove != null && m_ObjectTarget != null)
-            objectStartPos = m_ObjectToMove.transform.position;
 
-        Debug.Log("Phase5 Start: Boss gets bigger and moves");
+        if (m_ObjectToMove != null)
+            objectStartY = m_ObjectToMove.transform.position.y;
 
+        Debug.Log("Phase5 Start");
     }
+
     public override void Execute()
     {
-        if(m_isFinished) return;
-        if (m_Boss != null&& m_bossTarget!=null)
+        if (m_isFinished) return;
+
+     
+        if (m_Boss != null && m_bossTarget != null)
         {
+            Debug.Log("Phase5 object not null");
             elapsedTimeBoss += Time.deltaTime;
-            float tBoss = Mathf.Clamp01(elapsedTimeBoss / 3.0f); 
+            float tBoss = Mathf.Clamp01(elapsedTimeBoss / 3f);
             m_Boss.transform.position = Vector3.Lerp(bossStartPos, m_bossTarget.position, tBoss);
             m_Boss.transform.localScale = Vector3.Lerp(bossStartScale, bossTargetScale, tBoss);
-
         }
-        if (m_ObjectToMove != null && m_ObjectTarget != null)
+
+       
+        if (m_ObjectToMove != null)
         {
+            Debug.Log("Phase5 object not null");
             elapsedTimeObject += Time.deltaTime;
             float tObj = Mathf.Clamp01(elapsedTimeObject / objectMoveTime);
-            m_ObjectToMove.transform.position = Vector3.Lerp(objectStartPos, m_ObjectTarget.position, tObj);
-        }
-       
-        if ((elapsedTimeBoss >= 3.0f) && (elapsedTimeObject >= objectMoveTime))
-        {
-            m_ObjectToMove.SetActive(false);
-            m_isFinished = true;
-            Debug.Log("Phase5 Complete: Boss moves and ground went down");
+
+            Vector3 pos = m_ObjectToMove.transform.position;
+            pos.y = Mathf.Lerp(objectStartY, -1f, tObj);
+            m_ObjectToMove.transform.position = pos;
         }
 
+        // Phase 완료 조건
+        if ((elapsedTimeBoss >= 3f) && (elapsedTimeObject >= objectMoveTime))
+        {
+            m_isFinished = true;
+            Debug.Log("Phase5 Complete");
+        }
     }
+
     public override void OnExit()
     {
-        Debug.Log("Phase5 Done");
+        Debug.Log("Phase5 End");
     }
 
     public override bool IsFinished()
