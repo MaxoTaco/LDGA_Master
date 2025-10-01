@@ -9,7 +9,7 @@ public class Phase3:Phase
     public Transform m_destinationForBoss;     
 
     private float timeToMoveColumn = 5.0f;     
-    private float timeToMoveBoss = 1.0f;       
+    private float timeToMoveBoss = 1.5f;       
 
     private float elapsedTimeColumn;
     private float elapsedTimeBoss;
@@ -55,7 +55,7 @@ public class Phase3:Phase
             float tCol = Mathf.Clamp01(elapsedTimeColumn / timeToMoveColumn);
 
             Vector3 pos = m_columnObject.transform.position;
-            pos.y = Mathf.Lerp(columnStartY, 1f, tCol);
+            pos.y = Mathf.Lerp(columnStartY, 2f, tCol);
             m_columnObject.transform.position = pos;
         }
 
