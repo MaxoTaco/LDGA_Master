@@ -11,6 +11,8 @@ public class textTrigger : MonoBehaviour
     private TextMeshProUGUI m_TextMeshPro;
     int index;
 
+    bool done = false;
+
 
     private void Start()
     {
@@ -21,9 +23,10 @@ public class textTrigger : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if(other.gameObject.tag == "Player")
+        if(other.gameObject.tag == "Player" && !done && m_TextMeshPro.text.Length == 0)
         {
             Debug.Log("Collision Detected");
+            done = true;
             StartCoroutine(Load());
         }
     }
