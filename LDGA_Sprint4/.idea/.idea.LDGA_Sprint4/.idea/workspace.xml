@@ -7,8 +7,7 @@
     <list default="true" id="267980cf-898d-40db-8cf4-b8fe511d7ca7" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.LDGA_Sprint4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LDGA_Sprint4/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Testing Interaction.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Testing Interaction.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Interacting.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Interacting.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +98,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1759887953841</updated>
-      <workItem from="1759887953844" duration="3612000" />
+      <workItem from="1759887953844" duration="4997000" />
     </task>
     <servers />
   </component>

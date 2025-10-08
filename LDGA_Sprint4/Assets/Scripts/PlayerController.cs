@@ -14,12 +14,14 @@ public class PlayerController : MonoBehaviour
     CharacterController controller;
     AudioSource audioSource;
     bool hasLanded = false;
-
+    private bool causingFootsteps = false;
 
     void Start()
     {
+        
         controller = GetComponent<CharacterController>();
         audioSource = GetComponentInChildren<AudioSource>();
+        audioSource.Play();
     }
 
     void Update()
@@ -32,6 +34,38 @@ public class PlayerController : MonoBehaviour
         input = transform.right * moveHorizontal + transform.forward * moveVertical;
         input.Normalize();
 
+
+        moveDirection = input;
+
+        PerformJumpLogic();
+
+        if (moveDirection.x != 0 || moveDirection.z != 0)
+        {
+            causingFootsteps = true;
+        }
+        else
+        {
+            {
+                causingFootsteps = false;
+            }
+        }
+
+        if (audioSource.isPlaying && causingFootsteps == false)
+        {
+            audioSource.Pause();
+        }
+        
+        if (!audioSource.isPlaying && causingFootsteps == true)
+        {
+            audioSource.UnPause();
+        }
+
+
+    controller.Move(moveDirection * speed * Time.deltaTime);
+    }
+
+    private void PerformJumpLogic()
+    {
         if (controller.isGrounded)
         {
             // landing particle effects
@@ -40,7 +74,6 @@ public class PlayerController : MonoBehaviour
                 hasLanded = true;
             }
 
-            moveDirection = input;
             // jump
 
             if (Input.GetButton("Jump"))
@@ -61,6 +94,5 @@ public class PlayerController : MonoBehaviour
         }
 
         moveDirection.y -= gravity * Time.deltaTime;
-        controller.Move(moveDirection * speed * Time.deltaTime);
     }
 }
