@@ -6930,7 +6930,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: eb4485e5d8f5afe42831e9cf6ca493d0, type: 3}
       propertyPath: m_TagString
-      value: deletable
+      value: Interactable
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7858,75 +7858,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 8969663296373550323, guid: 505d56afe438449458fab5b1efd0070f, type: 3}
---- !u!1 &1531037840
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1531037842}
-  - component: {fileID: 1531037841}
-  - component: {fileID: 1531037843}
-  m_Layer: 0
-  m_Name: Text Trigger
-  m_TagString: Untagged
-  m_Icon: {fileID: 6519382022992737161, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1531037841
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1531037840}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2c2cefaefa8e2c64fb7c77ce9e0f4dad, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: '::'
-  text: Hey there! This is a test.
-  timeBet: 0.05
-  duration: 5
---- !u!4 &1531037842
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1531037840}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -10.51, y: -8.16, z: -0.96}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
---- !u!65 &1531037843
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1531037840}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 4.27, y: 3.76, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1535787368
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8095,15 +8026,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2757505425824521140, guid: 28db57dc2c8ffa847ab89264eb956f71, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.97978866
+      value: 17.19
       objectReference: {fileID: 0}
     - target: {fileID: 2757505425824521140, guid: 28db57dc2c8ffa847ab89264eb956f71, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.7
+      value: -6.74
       objectReference: {fileID: 0}
     - target: {fileID: 2757505425824521140, guid: 28db57dc2c8ffa847ab89264eb956f71, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -3.51
+      value: 0.69
       objectReference: {fileID: 0}
     - target: {fileID: 2757505425824521140, guid: 28db57dc2c8ffa847ab89264eb956f71, type: 3}
       propertyPath: m_LocalRotation.w
@@ -8268,8 +8199,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TextTrigger
   text: This altar, very interesting. I'm taking it home with me!
-  timeBet: 0.5
-  duration: 4
+  timeBet: 0.05
+  duration: 5
 --- !u!1 &1656053807 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 911305585434876517, guid: 505d56afe438449458fab5b1efd0070f, type: 3}
@@ -9039,7 +8970,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Interacting
   interactRange: 3
-  highlightColor: {r: 1, g: 0, b: 0, a: 1}
+  highlightColor: {r: 0.3018868, g: 0.3018868, b: 0.3018868, a: 1}
   clip: {fileID: 0}
 --- !u!1 &2123845908 stripped
 GameObject:
@@ -9106,7 +9037,6 @@ SceneRoots:
   - {fileID: 1588178421}
   - {fileID: 244751458}
   - {fileID: 1047026328}
-  - {fileID: 1531037842}
   - {fileID: 359692782}
   - {fileID: 1535787368}
   - {fileID: 1308971836}
