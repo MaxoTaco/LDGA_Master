@@ -3,7 +3,7 @@ using UnityEngine;
 public class Interacting : MonoBehaviour
 {
     public float interactRange = 3f;
-    public Color highlightColor = Color.red;
+    public Color highlightColor = Color.grey;
     private GameObject currentTarget;
     private Color originalColor;
     private Renderer targetRenderer;
@@ -22,7 +22,7 @@ public class Interacting : MonoBehaviour
         {
             GameObject hitObject = hit.collider.gameObject;
             //Debug.Log(hitObject.name);
-            if (hitObject.CompareTag("deletable"))
+            if (hitObject.CompareTag("Interactable") || hitObject.CompareTag("deletable")) //including deletable just in case it's being used. Should be depreciated though.
             {
                 if (currentTarget != hitObject)
                 {
@@ -31,8 +31,9 @@ public class Interacting : MonoBehaviour
                     targetRenderer = currentTarget.GetComponent<Renderer>();
                     if (targetRenderer)
                     {
-                        originalColor = targetRenderer.material.color;
-                        targetRenderer.material.color = highlightColor;
+                        originalColor = targetRenderer.material.GetColor("_EMISSION_COLOR");
+                        targetRenderer.material.SetColor("_EMISSION_COLOR", highlightColor);
+
                     }
                 }
                 if (Input.GetMouseButtonDown(0))
@@ -67,7 +68,7 @@ public class Interacting : MonoBehaviour
     {
         if (currentTarget && targetRenderer)
         {
-            targetRenderer.material.color = originalColor;
+            targetRenderer.material.SetColor("_EMISSION_COLOR", originalColor);
         }
 
         currentTarget = null;
