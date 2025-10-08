@@ -12,9 +12,7 @@ public class Interacting : MonoBehaviour
     private AudioSource audioSource;
     void Start()
     {
-        audioSource = GetComponent<AudioSource>();
-        if (audioSource == null)
-            audioSource = gameObject.AddComponent<AudioSource>();
+        audioSource = gameObject.AddComponent<AudioSource>();
     }
     void Update()
     {
