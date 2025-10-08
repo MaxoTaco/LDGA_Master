@@ -10,6 +10,7 @@ public class TextTrigger : MonoBehaviour
     private Image img;
     private TextMeshProUGUI m_TextMeshPro;
     private MeshRenderer mr;
+    public MeshRenderer[] optionalAdditionalMeshes;
     private BoxCollider bc;
     int index;
 
@@ -76,6 +77,13 @@ public class TextTrigger : MonoBehaviour
             mr.enabled = false;
         if(bc != null)
             bc.enabled = false;
+        if (optionalAdditionalMeshes != null)
+        {
+            foreach (MeshRenderer mr in optionalAdditionalMeshes)
+            {
+                mr.enabled = false;
+            }
+        }
     }
 
 }

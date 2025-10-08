@@ -39,7 +39,7 @@ public class Interacting : MonoBehaviour
                 {
                     Debug.Log(currentTarget.name + " deleted!");
                     if (clip != null && audioSource != null)
-                        audioSource.PlayOneShot(clip);
+                        audioSource.PlayOneShot(clip, 0.5f);
 
                     TextTrigger textTrigger = currentTarget.GetComponent<TextTrigger>();
                     if (textTrigger == null)

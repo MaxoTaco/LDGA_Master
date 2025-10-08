@@ -78,8 +78,10 @@ public class PlayerController : MonoBehaviour
 
             if (Input.GetButton("Jump"))
             {
+                /*
                 moveDirection.y = Mathf.Sqrt(2 * jumpHeight * gravity);
                 hasLanded = false;
+                */
             }
             else
             {
@@ -95,4 +97,6 @@ public class PlayerController : MonoBehaviour
 
         moveDirection.y -= gravity * Time.deltaTime;
     }
+    
+    
 }
