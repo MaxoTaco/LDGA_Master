@@ -7,6 +7,7 @@ public class Interacting : MonoBehaviour
     private GameObject currentTarget;
     private Color originalColor;
     private Renderer targetRenderer;
+    public Transform tran;
 
     public AudioClip clip;
     private AudioSource audioSource;
@@ -16,7 +17,7 @@ public class Interacting : MonoBehaviour
     }
     void Update()
     {
-        if (Physics.Raycast(transform.position, transform.forward, out RaycastHit hit, interactRange))
+        if (Physics.Raycast(tran.position, transform.forward, out RaycastHit hit, interactRange))
         {
             GameObject hitObject = hit.collider.gameObject;
             //Debug.Log(hitObject.name);
