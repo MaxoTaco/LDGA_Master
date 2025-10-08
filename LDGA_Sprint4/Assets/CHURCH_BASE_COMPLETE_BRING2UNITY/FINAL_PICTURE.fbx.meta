@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 3710e0e7aa7a13243a7097fc56f1ab57
+guid: 6ef2b09e76edd7947a35bc883d375c20
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
@@ -8,27 +8,27 @@ ModelImporter:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Bible_Picture_Export_Picture2_BaseColor.1001
-    second: {fileID: 2800000, guid: 61704ebfd0aa44c42a4f1f4ec7379628, type: 3}
+    second: {fileID: 2800000, guid: 21b4d5fd41fce78439e227ed81b2974d, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Bible_Picture_Export_Picture2_Height.1001
-    second: {fileID: 2800000, guid: be44cb354ec2af04ba9876d1e60d11b1, type: 3}
+    second: {fileID: 2800000, guid: 81763aee24f4c0a4b8c9088397410323, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Bible_Picture_Export_Picture2_Metalness.1001
-    second: {fileID: 2800000, guid: eb7e3fa39d1b82542911fbc833f6d442, type: 3}
+    second: {fileID: 2800000, guid: 55bbcabebfe316645bf454f830339ef0, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Bible_Picture_Export_Picture2_Normal.1001
-    second: {fileID: 2800000, guid: d73abce27416fe344aadd7aa2e09cd8b, type: 3}
+    second: {fileID: 2800000, guid: 2ad8cfe7073dfb448bfe876dee7e48ef, type: 3}
   - first:
       type: UnityEngine:Texture2D
       assembly: UnityEngine.CoreModule
       name: Bible_Picture_Export_Picture2_Roughness.1001
-    second: {fileID: 2800000, guid: a23b8e91dee957b43b7d93c6d984bb9b, type: 3}
+    second: {fileID: 2800000, guid: 7ff272be1070230408b4ac26d52b1a10, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
