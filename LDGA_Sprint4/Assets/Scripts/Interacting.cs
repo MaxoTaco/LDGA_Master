@@ -21,7 +21,7 @@ public class Interacting : MonoBehaviour
         if (Physics.Raycast(transform.position, transform.forward, out RaycastHit hit, interactRange))
         {
             GameObject hitObject = hit.collider.gameObject;
-            Debug.Log(hitObject.name);
+            //Debug.Log(hitObject.name);
             if (hitObject.CompareTag("deletable"))
             {
                 if (currentTarget != hitObject)
@@ -40,8 +40,16 @@ public class Interacting : MonoBehaviour
                     Debug.Log(currentTarget.name + " deleted!");
                     if (clip != null && audioSource != null)
                         audioSource.PlayOneShot(clip);
-                    Destroy(currentTarget);
-                    currentTarget = null;
+
+                    TextTrigger textTrigger = currentTarget.GetComponent<TextTrigger>();
+                    if (textTrigger == null)
+                    {
+                        Destroy(currentTarget);
+                        currentTarget = null;
+                    }
+                    
+                    textTrigger.TryLoad();
+                    
                 }
             }
             else
