@@ -1,0 +1,300 @@
+fileFormatVersion: 2
+guid: 2127c64e56902894b88a554534d9e7fc
+ModelImporter:
+  serializedVersion: 24200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Flooring_Revised_Flooring_textures_BaseColor.1001
+    second: {fileID: 2800000, guid: c5a5da25297b85b4ba1885dddb78c723, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Flooring_Revised_Flooring_textures_Height.1001
+    second: {fileID: 2800000, guid: 83b707913eccedd498e5cc7e487db26e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Flooring_Revised_Flooring_textures_Metalness.1001
+    second: {fileID: 2800000, guid: 3c71366e906abcb429bd60bfe8725564, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Flooring_Revised_Flooring_textures_Normal.1001
+    second: {fileID: 2800000, guid: 464d7e906eb3c53468307ed84039e603, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Flooring_Revised_Flooring_textures_Roughness.1001
+    second: {fileID: 2800000, guid: b7cea08a5f1643541bad09b21f783ebd, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Opacity_3
+    second: {fileID: 2800000, guid: 7165a153a43f10a40afd5d8229162580, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Walls_Flooring_Export_Arch_BaseColor.1001
+    second: {fileID: 2800000, guid: 1cb919456c4c02047943d0bbea4a03d1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Walls_Flooring_Export_Arch_Height.1001
+    second: {fileID: 2800000, guid: 913d42767769ab74990bac6e32abd466, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Walls_Flooring_Export_Arch_Metallic.1001
+    second: {fileID: 2800000, guid: 5296826dfa2806143a5a7b090a9351a7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Walls_Flooring_Export_Arch_Normal.1001
+    second: {fileID: 2800000, guid: eb0b5d82109785546ad55b57befa3944, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Walls_Flooring_Export_Arch_Roughness.1001
+    second: {fileID: 2800000, guid: a170d9f85db8ced4fbfd8f91699d0045, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Walls_Flooring_Export_Back_Wall_BaseColor.1001
+    second: {fileID: 2800000, guid: 1d49e12edb2383a4e894945eee10910e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Walls_Flooring_Export_Back_Wall_Metallic.1001
+    second: {fileID: 2800000, guid: 1331c991eb245044694ab36054a54311, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Walls_Flooring_Export_Back_Wall_Roughness.1001
+    second: {fileID: 2800000, guid: 7d46e3445710e234fbf8c3d7bb2c4df8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Walls_Flooring_Export_Big_Frame_BaseColor.1001
+    second: {fileID: 2800000, guid: be77aa631bc646749855bb322e658d5d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Walls_Flooring_Export_Big_Frame_Metallic.1001
+    second: {fileID: 2800000, guid: ce479da34d14de84fae07862042b1e04, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Walls_Flooring_Export_Big_Frame_Normal.1001
+    second: {fileID: 2800000, guid: 46abd350913816e45b4f2814194f8b86, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Walls_Flooring_Export_Big_Frame_Roughness.1001
+    second: {fileID: 2800000, guid: 1f5580444f8f6ef4580fddd0cda17154, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Walls_Flooring_Export_Big_Windows_BaseColor.1001
+    second: {fileID: 2800000, guid: cccce7c1080cb6f4e89d4798b00e70bb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Walls_Flooring_Export_Big_Windows_Height.1001
+    second: {fileID: 2800000, guid: 839d4737fca43ce40a5c8c951a4d88cb, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Walls_Flooring_Export_Big_Windows_Metallic.1001
+    second: {fileID: 2800000, guid: 9e828faddd2c65f449977bf9ad8c7d03, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Walls_Flooring_Export_Big_Windows_Normal.1001
+    second: {fileID: 2800000, guid: 74a28c7ea80d6aa44a19a671280d5b02, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Walls_Flooring_Export_Big_Windows_Roughness.1001
+    second: {fileID: 2800000, guid: 2dc2e204c3564e74689c7913d1665df9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Walls_Flooring_Export_Column_BaseColor.1001
+    second: {fileID: 2800000, guid: e9e19c996a694e64c9f5ae8582d846ce, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Walls_Flooring_Export_Column_Height.1001
+    second: {fileID: 2800000, guid: 89c284a5de82e7c46bb3218e094a12f5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Walls_Flooring_Export_Column_Metallic.1001
+    second: {fileID: 2800000, guid: 6531bb480fdb5fa4ea6c69acc0c3279e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Walls_Flooring_Export_Column_Normal.1001
+    second: {fileID: 2800000, guid: b1ac72a4e88d44340b87c1f5f7d9230d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Walls_Flooring_Export_Column_Roughness.1001
+    second: {fileID: 2800000, guid: 403d2d68afdcfa548b84a7083f8ba4c9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Walls_Flooring_Export_Doors_BaseColor.1001
+    second: {fileID: 2800000, guid: 4c334a8eb1622dd4f951a3f1c3cc243c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Walls_Flooring_Export_Doors_Height.1001
+    second: {fileID: 2800000, guid: e76abb53dd6afd54a845465db49d590e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Walls_Flooring_Export_Doors_Metallic.1001
+    second: {fileID: 2800000, guid: 1acd1825a85b33c4293d06fe69056671, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Walls_Flooring_Export_Doors_Normal.1001
+    second: {fileID: 2800000, guid: 1f406f6b59346d54ca6dd089dfd13ed3, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Walls_Flooring_Export_Doors_Roughness.1001
+    second: {fileID: 2800000, guid: 82f8aad3ea1b9bc449b0d9f5d541f1af, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Walls_Flooring_Export_Wall_No_Windowj_BaseColor.1001
+    second: {fileID: 2800000, guid: 0b61f565a8dd0184db2de4ce35f9b1f9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Walls_Flooring_Export_Wall_No_Windowj_Height.1001
+    second: {fileID: 2800000, guid: 9087d8fafe7428f40b04d84df94216fd, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Walls_Flooring_Export_Wall_No_Windowj_Metallic.1001
+    second: {fileID: 2800000, guid: c208ffc9320d21a4db3d6d2e0af2b7b7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Walls_Flooring_Export_Wall_No_Windowj_Normal.1001
+    second: {fileID: 2800000, guid: d170ea4b37b6a4d4999ff221cd444a0c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Walls_Flooring_Export_Wall_No_Windowj_Roughness.1001
+    second: {fileID: 2800000, guid: 1ff2997f0abed8a47afeae30128a25ae, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    generateMeshLods: 0
+    meshLodGenerationFlags: 0
+    maximumMeshLod: -1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
