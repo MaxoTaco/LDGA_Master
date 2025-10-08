@@ -24,6 +24,4 @@ public class Phase1: Phase
     {
         return m_isFinished;
     }
-    
-    
 }
