@@ -17,7 +17,7 @@ public class Interacting : MonoBehaviour
     }
     void Update()
     {
-        if (Physics.Raycast(tran.position, transform.forward, out RaycastHit hit, interactRange))
+        if (Physics.Raycast(tran.position, tran.forward, out RaycastHit hit, interactRange))
         {
             GameObject hitObject = hit.collider.gameObject;
             //Debug.Log(hitObject.name);
