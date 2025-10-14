@@ -1,0 +1,185 @@
+fileFormatVersion: 2
+guid: 9f6eacf9d123e5b42ac946e80edd2ea9
+ModelImporter:
+  serializedVersion: 24200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Ammo_Boxes_Ammo_Box_Base_Texture_BaseColor.1001
+    second: {fileID: 2800000, guid: 432c60c1f8dfa2d42853014196d0bbd9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Ammo_Boxes_Ammo_Box_Base_Texture_Height.1001
+    second: {fileID: 2800000, guid: 4b2858fed7a47514aa26fc811ca99979, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Ammo_Boxes_Ammo_Box_Base_Texture_Metalness.1001
+    second: {fileID: 2800000, guid: de69d99f4c94a104391bced26f44e276, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Ammo_Boxes_Ammo_Box_Base_Texture_Normal.1001
+    second: {fileID: 2800000, guid: 159401152b03c7647831218ff8f03f6e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Ammo_Boxes_Ammo_Box_Base_Texture_Roughness.1001
+    second: {fileID: 2800000, guid: f64c3b3cff5c3074583de696e70462c8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Ammo_Boxes_Ammo_Box_Lid_Texture_BaseColor.1001
+    second: {fileID: 2800000, guid: e073a22bf391a6340aea2a3b1694acaf, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Ammo_Boxes_Ammo_Box_Lid_Texture_Height.1001
+    second: {fileID: 2800000, guid: f52b9e068b537394783fb01ea6619c0e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Ammo_Boxes_Ammo_Box_Lid_Texture_Metalness.1001
+    second: {fileID: 2800000, guid: 88595ef72093e114483e1899d5c8815b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Ammo_Boxes_Ammo_Box_Lid_Texture_Normal.1001
+    second: {fileID: 2800000, guid: 4c1652852600d5540bd954c9d5348ba8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Ammo_Boxes_Ammo_Box_Lid_Texture_Roughness.1001
+    second: {fileID: 2800000, guid: 68605db032efe8249af33bab2c31de6a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: R_Shotgun_W_Shells_2_Substance_Shotgun_Shell_Texture_BaseColor.1001
+    second: {fileID: 2800000, guid: ebcf11f03240d2a4fa43809ca98bed47, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: R_Shotgun_W_Shells_2_Substance_Shotgun_Shell_Texture_Height.1001
+    second: {fileID: 2800000, guid: e7b8bc447b783ef43a449480dd9faf62, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: R_Shotgun_W_Shells_2_Substance_Shotgun_Shell_Texture_Metalness.1001
+    second: {fileID: 2800000, guid: 845f1aa91b7a69e4bb67dc3854f3893c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: R_Shotgun_W_Shells_2_Substance_Shotgun_Shell_Texture_Normal.1001
+    second: {fileID: 2800000, guid: b1fbff4513a5c344585dc5cbf37cd477, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: R_Shotgun_W_Shells_2_Substance_Shotgun_Shell_Texture_Roughness.1001
+    second: {fileID: 2800000, guid: 63dbf24d24beb584c96d9724bf2761a9, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    generateMeshLods: 0
+    meshLodGenerationFlags: 0
+    maximumMeshLod: -1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
