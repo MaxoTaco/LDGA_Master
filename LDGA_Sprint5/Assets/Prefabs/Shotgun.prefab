@@ -53,7 +53,8 @@ PrefabInstance:
       value: Shotgun
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 4072511858437158039, guid: 09507cd4f42ad3e43b79d95e16642a97, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 09507cd4f42ad3e43b79d95e16642a97, type: 3}
