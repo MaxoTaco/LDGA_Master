@@ -1,59 +1,9 @@
 fileFormatVersion: 2
-guid: 116c0218966f6e94db5eb2d57a5ddb76
+guid: 8c6d3c99618c81f47a9dcdda09407432
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Knife_Blade_BaseColor.1001
-    second: {fileID: 2800000, guid: 572f37eaae27a864d93a34a90a16f122, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Knife_Blade_Height.1001
-    second: {fileID: 2800000, guid: 8d8f52a0b1866a6489119a9236799773, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Knife_Blade_Metalness.1001
-    second: {fileID: 2800000, guid: 4d76e036f5d86ad40bb80d7883ee0280, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Knife_Blade_Normal.1001
-    second: {fileID: 2800000, guid: 71ae6636af0ee0b43a4baa7391bda59b, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Knife_Blade_Roughness.1001
-    second: {fileID: 2800000, guid: 65fac0ab861ea0f41a4cde45f921ab1f, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Knife_Handle_BaseColor.1001
-    second: {fileID: 2800000, guid: 73f3c7cb34bce6743b6eb95709e7f742, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Knife_Handle_Height.1001
-    second: {fileID: 2800000, guid: 4e0b8280cbde16c44ba69ecb629aa327, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Knife_Handle_Metalness.1001
-    second: {fileID: 2800000, guid: 81f53f4b6d4ed864ba6bd8c594e82430, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Knife_Handle_Normal.1001
-    second: {fileID: 2800000, guid: 28f2b5311d99da646bcf93db01d6201e, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Knife_Handle_Roughness.1001
-    second: {fileID: 2800000, guid: 8e793c655576f99479d18a8633be740a, type: 3}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0

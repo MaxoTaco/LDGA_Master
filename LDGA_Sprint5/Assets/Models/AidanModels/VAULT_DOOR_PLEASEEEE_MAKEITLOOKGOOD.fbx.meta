@@ -1,0 +1,285 @@
+fileFormatVersion: 2
+guid: 57a459533294ec44c82a277b5aa86b0b
+ModelImporter:
+  serializedVersion: 24200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: R_Vault_Door_Too_Substance_Ball_Joints1_BaseColor.1001
+    second: {fileID: 2800000, guid: a8d45fbd4076a064a8c04c02cf33f147, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: R_Vault_Door_Too_Substance_Ball_Joints1_Height.1001
+    second: {fileID: 2800000, guid: 38abdae4639fc4b4b8b2c15554ca2181, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: R_Vault_Door_Too_Substance_Ball_Joints1_Metalness.1001
+    second: {fileID: 2800000, guid: 3107dd47099f0d94db544ac24b2492b7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: R_Vault_Door_Too_Substance_Ball_Joints1_Normal.1001
+    second: {fileID: 2800000, guid: 9a9a63f2fa77ad74985c0087885637ee, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: R_Vault_Door_Too_Substance_Ball_Joints1_Roughness.1001
+    second: {fileID: 2800000, guid: bb6b3804e9751c14485a2d90bd2feb99, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: R_Vault_Door_Too_Substance_Base_Texture_BaseColor.1001
+    second: {fileID: 2800000, guid: 6e9470b07e4579848aff0f41e8fd8c87, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: R_Vault_Door_Too_Substance_Base_Texture_Height.1001
+    second: {fileID: 2800000, guid: 1effa98feb74d5144a4d0fc90832604e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: R_Vault_Door_Too_Substance_Base_Texture_Metalness.1001
+    second: {fileID: 2800000, guid: df32dbc4bf229884ca440c1d7b85d418, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: R_Vault_Door_Too_Substance_Base_Texture_Normal.1001
+    second: {fileID: 2800000, guid: ba76746838a9b3342b5b9420a3753778, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: R_Vault_Door_Too_Substance_Base_Texture_Roughness.1001
+    second: {fileID: 2800000, guid: dc580a234af6a4a4cbe84f9483de817c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: R_Vault_Door_Too_Substance_Center_Texture_BaseColor.1001
+    second: {fileID: 2800000, guid: 34b76f2d49a5a6148b2eea8d1d668bd9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: R_Vault_Door_Too_Substance_Center_Texture_Height.1001
+    second: {fileID: 2800000, guid: ff3cb5cbf6970a94f95d786e1279af86, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: R_Vault_Door_Too_Substance_Center_Texture_Metalness.1001
+    second: {fileID: 2800000, guid: dd013d5a332162f4380aa5f82942561b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: R_Vault_Door_Too_Substance_Center_Texture_Normal.1001
+    second: {fileID: 2800000, guid: 4a00379513b1f6f488cd4ae8998ddda2, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: R_Vault_Door_Too_Substance_Center_Texture_Roughness.1001
+    second: {fileID: 2800000, guid: c700029777572e14ab0e32316798d0e5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: R_Vault_Door_Too_Substance_Door_Mechanism_Texture_BaseColor.1001
+    second: {fileID: 2800000, guid: 8d78d61b9e4a6094381f93721984143c, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: R_Vault_Door_Too_Substance_Door_Mechanism_Texture_Height.1001
+    second: {fileID: 2800000, guid: d88db3868eeaa934bb4d78b881bd63a5, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: R_Vault_Door_Too_Substance_Door_Mechanism_Texture_Metalness.1001
+    second: {fileID: 2800000, guid: 40756e7b26604a0418cafe8c68ec2043, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: R_Vault_Door_Too_Substance_Door_Mechanism_Texture_Normal.1001
+    second: {fileID: 2800000, guid: 7d92657563a15e547b25ee4d03fe64de, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: R_Vault_Door_Too_Substance_Door_Mechanism_Texture_Roughness.1001
+    second: {fileID: 2800000, guid: 63534f863dd5c5b49bcdb98662360ddc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: R_Vault_Door_Too_Substance_Inner_Frame_Texture_BaseColor.1001
+    second: {fileID: 2800000, guid: c08cc0e9b207d214a985ffd2fd4b65f6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: R_Vault_Door_Too_Substance_Inner_Frame_Texture_Height.1001
+    second: {fileID: 2800000, guid: 1500502a67ca6794eb0c3b3e7113b3c4, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: R_Vault_Door_Too_Substance_Inner_Frame_Texture_Metalness.1001
+    second: {fileID: 2800000, guid: ad161470207038645a26ed5831a4b3ce, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: R_Vault_Door_Too_Substance_Inner_Frame_Texture_Normal.1001
+    second: {fileID: 2800000, guid: d5f9fa310b38272469b3265300f7a3ff, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: R_Vault_Door_Too_Substance_Inner_Frame_Texture_Roughness.1001
+    second: {fileID: 2800000, guid: 570a709a7e6c6c840a1d70d29a6eca96, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: R_Vault_Door_Too_Substance_Outer_Frame_Texture_BaseColor.1001
+    second: {fileID: 2800000, guid: 4eef11ef4dcf517488f865d34f93c26d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: R_Vault_Door_Too_Substance_Outer_Frame_Texture_Height.1001
+    second: {fileID: 2800000, guid: 70abb416a2650e740835f185414a4758, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: R_Vault_Door_Too_Substance_Outer_Frame_Texture_Metalness.1001
+    second: {fileID: 2800000, guid: 72a6d902b86019243afd3aae196a236d, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: R_Vault_Door_Too_Substance_Outer_Frame_Texture_Normal.1001
+    second: {fileID: 2800000, guid: 6628f1ba1b419ef48aae1eb9550b9d6e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: R_Vault_Door_Too_Substance_Outer_Frame_Texture_Roughness.1001
+    second: {fileID: 2800000, guid: 8740e8a2a04ee2d4084ff9c8277746e6, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: R_Vault_Door_Too_Substance_Pistons_Texture_BaseColor.1001
+    second: {fileID: 2800000, guid: abfb59b232a48564cb5e51d3d52b10f9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: R_Vault_Door_Too_Substance_Pistons_Texture_Height.1001
+    second: {fileID: 2800000, guid: 3578c8af75adfa54da8b46ba60590265, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: R_Vault_Door_Too_Substance_Pistons_Texture_Metalness.1001
+    second: {fileID: 2800000, guid: b0ef823e92c52cc47973d8c0422acb46, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: R_Vault_Door_Too_Substance_Pistons_Texture_Normal.1001
+    second: {fileID: 2800000, guid: 61c6b2245a1a67346a17af28d60ebfdc, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: R_Vault_Door_Too_Substance_Pistons_Texture_Roughness.1001
+    second: {fileID: 2800000, guid: 1a1542cba356a2343860b642184fff54, type: 3}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    generateMeshLods: 0
+    meshLodGenerationFlags: 0
+    maximumMeshLod: -1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

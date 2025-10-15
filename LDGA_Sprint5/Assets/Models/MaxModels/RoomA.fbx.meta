@@ -3,7 +3,32 @@ guid: aca8330d225b00340ad3eb851485630d
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Vault Models_RoomA_Textire_BaseColor.1001
+    second: {fileID: 2800000, guid: 440c0a43e17b8c146a476f9bf7431a8a, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Vault Models_RoomA_Textire_Height.1001
+    second: {fileID: 2800000, guid: 1e457db6294ee4c45a96d9c9021d8f83, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Vault Models_RoomA_Textire_Metalness.1001
+    second: {fileID: 2800000, guid: 39313b7aa3101e74688beca9c7b74ca7, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Vault Models_RoomA_Textire_Normal.1001
+    second: {fileID: 2800000, guid: cc2a5fcc7eb200a4bb2b2b9e5eca17af, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Vault Models_RoomA_Textire_Roughness.1001
+    second: {fileID: 2800000, guid: 8421502f2eef50d41970a238a3a3f1b2, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
